@@ -16,11 +16,11 @@ function mmail($to ,$subject , $message ,$header){
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'ahmadmujtabap72@gmail.com';
-        $mail->Password = 'ubbiwkzfjfrtouvb';
+        $mail->Username = 'Your Email';
+        $mail->Password = 'Password';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
-        $mail->setFrom('ahmadmujtabap72@gmail.com');
+        $mail->setFrom('YOur emai;');
         $mail->addAddress($to);
         $mail->isHTML(true);
         $mail->Subject = $subject;
